@@ -5,10 +5,10 @@ const cors = require("cors");
 require("dotenv").config();
 
 // Importar modelos
-const Usuario = require("./models/Usuario");
-const Hogar = require("./models/Hogar");
-const Habitacion = require("./models/Habitacion");
-const Tarea = require("./models/Tarea");
+const Usuario = require("./backend/models/Usuario");
+const Hogar = require("./backend/models/Hogar");
+const Habitacion = require("./backend/models/Habitacion");
+const Tarea = require("./backend/models/Tarea");
 
 // Inicializar Express
 const app = express();
