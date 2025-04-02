@@ -27,13 +27,13 @@ AppLimpieza es una aplicación que permite a los usuarios gestionar tareas de li
 
 ## Iniciar el servidor
 
-Para iniciar el servidor en modo desarrollo:
+Para iniciar el servidor en modo desarrollo ejecuta:
 
 ```
-node app.js
+npm start
 ```
 
-O si tienes nodemon instalado:
+O lo puedes correr directamente con node/nodemon si está instalado:
 
 ```
 nodemon app.js
